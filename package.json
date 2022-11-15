@@ -1,0 +1,23 @@
+{
+  "name": "starter-vitepress",
+  "version": "1.0.0",
+  "description": "A vitepress starter",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "keywords": [
+    "vue",
+    "vite",
+    "vitepress",
+    "template"
+  ],
+  "author": "Mancuoj",
+  "license": "MIT",
+  "dependencies": {
+    "vitepress": "1.0.0-alpha.29",
+    "vue": "^3.2.45"
+  }
+}
