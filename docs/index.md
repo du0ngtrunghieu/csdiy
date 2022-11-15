@@ -1,26 +1,25 @@
 ---
 layout: home
 
-title: 一个 VitePress 模板
-titleTemplate: 静态网站生成器
+title: Mancuoj
+titleTemplate: 笔记 
 
 hero:
-  name: VitePress 模板
-  text: 静态网站生成器
-  tagline: 简单, 强力, 高性能
+  name: Mancuoj
+  tagline: 记录我的计算机自学之路
   actions:
     - theme: brand
       text: 开始阅读
-      link: /theory/intro
+      link: /cs/intro
     - theme: alt
       text: GitHub
-      link: https://github.com/mancuoj/starter-vitepress
+      link: https://github.com/mancuoj/csdiy
 
 features:
-  - title: 简单 🛠️
-    details: 开箱即用，一键部署
-  - title: 强力 🖖
-    details: 增强版 Markdown，可嵌入 Vue 组件
-  - title: 高性能 ⚡️
-    details: SSG + SPA
+  - title: 计算机 🖥️
+    details: 学习国外四大的计算机公开课的记录
+  - title: 数学 ➕
+    details: 学习一些计算机相关的数学
+  - title: 工具 🛠️
+    details: 学习一些有用工具，比如 LaTex 等
 ---

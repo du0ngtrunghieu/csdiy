@@ -1,8 +1,9 @@
-import 理论 from './理论'
-import 实践 from './实践'
+import 计算机 from './计算机'
+import 数学 from './数学'
+import 工具 from './工具'
 
 export default {
-    title: 'Mancuoj',
+    title: '👨‍💻 Mancuoj',
     description: 'A vitepress template',
     lang: 'zh-CN',
     lastUpdated: true,
@@ -21,12 +22,14 @@ export default {
         outlineTitle: '大纲',
 
         nav: [
-            { text: '理论', link: '/theory/intro', activeMatch: '/theory/' },
-            { text: '实践', link: '/practice/intro', activeMatch: '/practice/' },
+            { text: '计算机', link: '/cs/intro', activeMatch: '/cs/' },
+            { text: '数学', link: '/math/intro', activeMatch: '/math/' },
+            { text: '工具', link: '/tools/latex-config', activeMatch: '/tools/' },
         ],
         sidebar: {
-            '/theory/': 理论(),
-            '/practice/': 实践()
+            '/cs/': 计算机(),
+            '/math/': 数学(),
+            '/tools/': 工具(),
         },
 
         socialLinks: [
@@ -47,7 +50,7 @@ export default {
         ],
 
         editLink: {
-            pattern: 'https://github.com/mancuoj/starter-vitepress/edit/main/docs/:path',
+            pattern: 'https://github.com/mancuoj/csdiy/edit/main/docs/:path',
             text: '在 GitHub 上修改此页'
         },
         lastUpdatedText: '上次更新时间',
