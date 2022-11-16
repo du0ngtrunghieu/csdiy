@@ -3,7 +3,7 @@ import 数学 from './数学'
 import 工具 from './工具'
 
 export default {
-    title: '👨‍💻 Mancuoj',
+    title: 'Mancuoj',
     description: 'A vitepress template',
     lang: 'zh-CN',
     lastUpdated: true,
@@ -19,8 +19,17 @@ export default {
 
     themeConfig: {
         logo: '/logo.svg',
-        outlineTitle: '大纲',
-
+        outlineTitle: '目录',
+        head: [
+            [
+                'link',
+                { rel: 'icon', href: '/logo.svg' },
+            ],
+            [
+                'meta',
+                { name: 'keywords', content: 'Mancuoj, 计算机, 数学, 笔记, 公开课', },
+            ],
+        ],
         nav: [
             { text: '计算机', link: '/cs/intro', activeMatch: '/cs/' },
             { text: '数学', link: '/math/intro', activeMatch: '/math/' },
@@ -66,7 +75,7 @@ export default {
         },
         footer: {
             message: 'Released under the MIT License',
-            copyright: 'Copyright © 2022 Mancuoj'
+            copyright: 'Copyright © 2022-present Mancuoj'
         },
     }
 }
