@@ -9,6 +9,10 @@ export default {
     lastUpdated: true,
     cleanUrls: 'without-subfolders',
 
+    head: [
+        ['link', { rel: 'icon', href: '/logo.svg' }],
+        ['meta', { name: 'keywords', content: 'Mancuoj, 计算机, 数学, 笔记, 公开课' }],
+    ],
     markdown: {
         theme: {
             light: 'vitesse-light',
@@ -20,16 +24,6 @@ export default {
     themeConfig: {
         logo: '/logo.svg',
         outlineTitle: '目录',
-        head: [
-            [
-                'link',
-                { rel: 'icon', href: '/logo.svg' },
-            ],
-            [
-                'meta',
-                { name: 'keywords', content: 'Mancuoj, 计算机, 数学, 笔记, 公开课', },
-            ],
-        ],
         nav: [
             { text: '计算机', link: '/cs/intro', activeMatch: '/cs/' },
             { text: '数学', link: '/math/intro', activeMatch: '/math/' },
