@@ -19,7 +19,7 @@ export default {
             light: 'github-light',
             dark: 'github-dark'
         },
-        lineNumbers: true,
+        // lineNumbers: true,
     },
 
     themeConfig: {
