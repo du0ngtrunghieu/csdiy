@@ -4,7 +4,7 @@ import 工具 from './工具'
 
 export default {
     title: 'Mancuoj',
-    description: 'A vitepress template',
+    description: '我的计算机自学之路',
     lang: 'zh-CN',
     lastUpdated: true,
     cleanUrls: 'without-subfolders',
@@ -16,7 +16,7 @@ export default {
 
     markdown: {
         theme: {
-            light: 'vitesse-light',
+            light: 'github-light',
             dark: 'github-dark'
         },
         // lineNumbers: true,
