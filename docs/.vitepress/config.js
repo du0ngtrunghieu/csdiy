@@ -29,7 +29,7 @@ export default {
         nav: [
             { text: '计算机', link: '/cs/intro', activeMatch: '/cs/' },
             { text: '数学', link: '/math/intro', activeMatch: '/math/' },
-            { text: '工具', link: '/tools/vitepress', activeMatch: '/tools/' },
+            { text: '工具', link: '/tools/markdown', activeMatch: '/tools/' },
         ],
 
         sidebar: {
