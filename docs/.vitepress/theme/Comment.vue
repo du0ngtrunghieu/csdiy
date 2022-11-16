@@ -11,8 +11,8 @@ const { Layout } = DefaultTheme
   <Layout>
     <template #doc-after>
       <div style="margin-top: 2rem;">
-        <Giscus id="comments" repo="mancuoj/discussions" repoId="R_kgDOIcaOPg" category="Announcements"
-          categoryId="DIC_kwDOIcaOPs4CSlbm" mapping="url" term="畅所欲言吧 😆" strict="0" reactionsEnabled="0"
+        <Giscus id="comments" repo="mancuoj/csdiy" repoId="R_kgDOIcH4QA" category="Announcements"
+          categoryId="DIC_kwDOIcH4QM4CSljH" mapping="url" term="畅所欲言吧 😆" strict="0" reactionsEnabled="0"
           emitMetadata="0" inputPosition="top" :theme="[isDark ? 'dark' : 'light']" lang="zh-CN" loading="lazy" />
       </div>
     </template>
