@@ -3,7 +3,7 @@
         ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
         Roboto, 'Helvetica Neue', Helvetica, Arial, 'Noto Sans', sans-serif,
         'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    --vp-font-family-mono: 'Maple Mono NF', ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Monaco,
+    --vp-font-family-mono: 'SF Mono', '苹方-简', ui-monospace, SFMono-Regular, Menlo, Monaco,
         Consolas, 'Liberation Mono', 'Courier New', monospace;
 }
 
@@ -13,7 +13,7 @@
 
     --vp-code-block-color: var(--vp-c-text-light-1);
     --vp-code-block-bg: var(--vp-c-white-soft);
-    --vp-code-line-highlight-color: rgba(255, 255, 255, 0.5);
+    --vp-code-line-highlight-color: rgba(255, 255, 255);
     --vp-code-line-number-color: var(--vp-c-text-light-2);
 }
 

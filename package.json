@@ -17,6 +17,7 @@
   "author": "Mancuoj",
   "license": "MIT",
   "dependencies": {
+    "@giscus/vue": "^2.2.3",
     "vitepress": "1.0.0-alpha.29",
     "vue": "^3.2.45"
   }

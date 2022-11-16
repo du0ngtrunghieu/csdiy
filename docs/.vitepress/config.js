@@ -13,6 +13,7 @@ export default {
         ['link', { rel: 'icon', href: '/logo.svg' }],
         ['meta', { name: 'keywords', content: 'Mancuoj, 计算机, 数学, 笔记, 公开课' }],
     ],
+
     markdown: {
         theme: {
             light: 'vitesse-light',
@@ -24,11 +25,13 @@ export default {
     themeConfig: {
         logo: '/logo.svg',
         outlineTitle: '目录',
+
         nav: [
             { text: '计算机', link: '/cs/intro', activeMatch: '/cs/' },
             { text: '数学', link: '/math/intro', activeMatch: '/math/' },
-            { text: '工具', link: '/tools/latex-config', activeMatch: '/tools/' },
+            { text: '工具', link: '/tools/vitepress', activeMatch: '/tools/' },
         ],
+
         sidebar: {
             '/cs/': 计算机(),
             '/math/': 数学(),
