@@ -16,10 +16,13 @@ hero:
       link: https://github.com/mancuoj/csdiy
 
 features:
-  - title: 计算机 🖥️
-    details: 学习国外四大的计算机公开课的记录
-  - title: 数学 ➕
-    details: 学习一些计算机相关的数学
-  - title: 工具 🛠️
-    details: 学习一些有用工具，比如 LaTex 等
+  - icon: 🖥️
+    title: 学习一些计算机公开课，如 CS61A 等
+    link: https://csdiy.netlify.app/cs/intro
+  - icon: ➗
+    title: 学习一些计算机相关的数学，如线性代数等
+    link: https://csdiy.netlify.app/math/intro
+  - icon: 🛠️
+    title: 学习一些有用工具，比如 LaTex 等
+    link: https://csdiy.netlify.app/tools/markdown
 ---

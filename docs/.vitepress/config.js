@@ -19,12 +19,13 @@ export default {
             light: 'github-light',
             dark: 'github-dark'
         },
-        // lineNumbers: true,
+        lineNumbers: true,
     },
 
     themeConfig: {
         logo: '/logo.svg',
         outlineTitle: '目录',
+        
 
         nav: [
             { text: '计算机', link: '/cs/intro', activeMatch: '/cs/' },
@@ -32,11 +33,13 @@ export default {
             { text: '工具', link: '/tools/markdown', activeMatch: '/tools/' },
         ],
 
+        
         sidebar: {
             '/cs/': 计算机(),
             '/math/': 数学(),
             '/tools/': 工具(),
         },
+
 
         socialLinks: [
             { icon: 'github', link: 'https://github.com/mancuoj' },
@@ -60,7 +63,6 @@ export default {
             },
             { icon: 'twitter', link: 'https://twitter.com/humancuoj' },
         ],
-
         editLink: {
             pattern: 'https://github.com/mancuoj/csdiy/edit/main/docs/:path',
             text: '在 GitHub 上修改此页'
