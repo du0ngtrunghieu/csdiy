@@ -23,8 +23,10 @@
 
 
 
+
 ## 徽章
 
+默认类型为 tip
 
 ```md
 ### Title1 <Badge type="info" text="default" />
@@ -32,6 +34,9 @@
 ### Title3 <Badge type="warning" text="beta" />
 ### Title4 <Badge type="danger" text="caution" />
 ```
+
+
+
 
 ## 代码高亮
 
@@ -48,16 +53,19 @@ export default {
 ```
 ````
 
-````md
+在每行后添加 `// [!code focus/hl/--/++/warning/error]`
+
 ```js
-name: 'Mancuoj', // [!code  focus]
-msg: 'Hello World', // [!code  hl]
-msg: 'Error', // [!code  error]
-msg: 'Warning' // [!codeㅤ warning]
-msg: 'Removed' // [!codeㅤ --]
-msg: 'Added' // [!codeㅤ ++]
+export default {
+  msg: "全体目光向我看齐",  // [!code focus]
+  msg: "我宣布个事儿",  // [!code hl]
+  msg: "我是个傻逼！",  // [!code --]
+  msg: "我是个大傻逼！",  // [!code ++]
+  msg: "危险❗", // [!code warning]
+  msg: "危险❗危险❗危险❗" // [!code error]
+}
 ```
-````
+
 
 ## 引入代码片段
 
@@ -66,3 +74,5 @@ msg: 'Added' // [!codeㅤ ++]
 ```
 <<< @/snippets/snippet.cs{1,2,4-6 c#}
 ```
+
+
