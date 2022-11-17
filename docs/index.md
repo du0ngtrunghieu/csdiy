@@ -24,6 +24,6 @@ features:
     title: 一些计算机相关的数学，如线性代数等
     link: https://csdiy.netlify.app/math/intro
   - icon: 🛠️
-    title: 一些有用工具，如 LaTex 等
+    title: 一些有用工具，如 LaTeX 等
     link: https://csdiy.netlify.app/tools/markdown
 ---
