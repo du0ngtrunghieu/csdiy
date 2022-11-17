@@ -44,14 +44,9 @@ VitePress 自定义的 Vue 组件，默认类型为 tip
 
 ````md
 ```js{1,5,7-8}
-// Highlighted
-export default { 
-  ...
 
-  ...
-  
-  ...
-}
+...
+
 ```
 ````
 
