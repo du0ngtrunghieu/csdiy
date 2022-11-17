@@ -9,6 +9,6 @@ C 语言，我的 C 语言 😭😭😭
 
 先写一个 Hello World 压压惊
 
-<<< @/snippets/cs50x/hello.c
+<<< @/snippets/c/hello.c
 
 ![meme](/img/hello_world_meme.png)
