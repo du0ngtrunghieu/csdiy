@@ -25,12 +25,28 @@ export default function () {
             ]
         },
         {
+            text: 'Java',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: '入门', link: '/lang/java/intro' },
+            ]
+        },
+        {
             text: 'JavaScript',
             collapsible: true,
             collapsed: true,
             items: [
                 { text: '入门', link: '/lang/js/intro' },
             ]
-        }
+        },
+        {
+            text: 'Rust',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: '入门', link: '/lang/rust/intro' },
+            ]
+        },
     ]
 } 
