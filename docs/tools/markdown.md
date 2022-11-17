@@ -27,7 +27,7 @@
 
 
 ```md
-### Title 1<Badge type="info" text="default" />
+### Title1 <Badge type="info" text="default" />
 ### Title2 <Badge type="tip" text="已完成" />
 ### Title3 <Badge type="warning" text="beta" />
 ### Title4 <Badge type="danger" text="caution" />
@@ -50,8 +50,8 @@ export default {
 
 ````md
 ```js
-name: 'mancuoj', // [!code  focus]
-msg: 'hello world', // [!code  hl]
+name: 'Mancuoj', // [!code  focus]
+msg: 'Hello World', // [!code  hl]
 msg: 'Error', // [!code  error]
 msg: 'Warning' // [!codeㅤ warning]
 msg: 'Removed' // [!codeㅤ --]
