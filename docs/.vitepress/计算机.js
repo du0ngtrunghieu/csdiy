@@ -12,8 +12,6 @@ export default function () {
             collapsed: true,
             items: [
                 { text: '简介', link: '/cs/cs50x/intro' },
-                { text: 'C', link: '/cs/cs50x/c' },
-                { text: 'Flask', link: '/cs/cs50x/flask' },
             ]
         },
         {

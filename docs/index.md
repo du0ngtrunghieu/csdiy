@@ -17,13 +17,16 @@ hero:
       link: https://github.com/mancuoj/csdiy
 
 features:
-  - icon: 🖥️
-    title: 一些计算机公开课，如 CS61A 等
+  - title: 🖥️ 计算机
+    details: 计算机公开课和一些经典大黑书
     link: https://csdiy.netlify.app/cs/intro
-  - icon: ➗
-    title: 一些计算机相关的数学，如线性代数等
+  - title: 🦾 编程语言
+    details: 各种编程语言及对应体系
+    link: https://csdiy.netlify.app/lang/c/intro
+  - title: ➗ 数学
+    details: 计算机相关数学
     link: https://csdiy.netlify.app/math/intro
-  - icon: 🛠️
-    title: 一些有用工具，如 LaTeX 等
-    link: https://csdiy.netlify.app/tools/markdown
+  - title: 🛠️ 工具
+    details: 一些有用工具，如 LaTeX 等
+    link: https://csdiy.netlify.app/tool/markdown
 ---

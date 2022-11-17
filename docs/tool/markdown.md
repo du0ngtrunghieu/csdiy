@@ -1,10 +1,10 @@
-# Markdown 语法
+# Markdown
 
 本文用于记录一些 VitePress 中的特殊且好用的 Markdown 语法
 
 示例皆来源于 [VitePress 官网](https://vitepress.vuejs.org/guide/markdown)
 
-还夹杂了一些其他的好用但不常用的常规语法（夹带私货警告 👀
+之后也会尝试自制一些便捷的 Vue 组件（夹带私货警告 👀
 
 ## 生成目录
 
@@ -14,6 +14,8 @@
 
 
 ## 自定义容器
+
+来源于 VitePress 使用的 md 解析器 [markdown-it](https://github.com/markdown-it/markdown-it)
 
 ```md
 ::: info/tip/warning/danger/details 标题可选
@@ -26,7 +28,7 @@
 
 ## 徽章
 
-默认类型为 tip
+VitePress 自定义的 Vue 组件，默认类型为 tip
 
 ```md
 ### Title1 <Badge type="info" text="default" />
@@ -52,6 +54,8 @@ export default {
 }
 ```
 ````
+
+## 其他高亮
 
 在每行后添加 `// [!code focus/hl/--/++/warning/error]`
 

@@ -2,14 +2,15 @@ export default function () {
     return [
         {
             items: [
-                { text:'Markdown 语法', link: '/tools/markdown'}
+                { text:'Markdown', link: '/tool/markdown'},
+                { text:'GFW', link: '/tool/gfw'},
             ]
         },
         {
             text: 'LaTeX',
             collapsible: true,
             items: [
-                { text: 'LaTeX 的配置', link: '/tools/latex/config' },
+                { text: '配置', link: '/tool/latex/config' },
             ]
         },
     ]
