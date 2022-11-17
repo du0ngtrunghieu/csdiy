@@ -24,8 +24,8 @@ export default {
 
     themeConfig: {
         logo: '/logo.svg',
-        outlineTitle: '目录',
-        
+        outlineTitle: '大纲',
+
 
         nav: [
             { text: '计算机', link: '/cs/intro', activeMatch: '/cs/' },
@@ -33,7 +33,7 @@ export default {
             { text: '工具', link: '/tools/markdown', activeMatch: '/tools/' },
         ],
 
-        
+
         sidebar: {
             '/cs/': 计算机(),
             '/math/': 数学(),
