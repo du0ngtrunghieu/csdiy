@@ -21,7 +21,14 @@ export default function () {
             collapsed: true,
             items: [
                 { text: '入门', link: '/lang/py/intro' },
-                { text: 'Flask', link: '/lang/py/flask' }
+            ]
+        },
+        {
+            text: 'Flask',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: '入门', link: '/lang/flask/intro' },
             ]
         },
         {
@@ -38,6 +45,14 @@ export default function () {
             collapsed: true,
             items: [
                 { text: '入门', link: '/lang/js/intro' },
+            ]
+        },
+        {
+            text: 'Vue',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: '入门', link: '/lang/vue/intro' },
             ]
         },
         {

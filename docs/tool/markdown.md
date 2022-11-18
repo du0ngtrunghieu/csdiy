@@ -1,6 +1,6 @@
 # Markdown
 
-本文用于记录一些 VitePress 中的特殊且好用的 Markdown 语法
+本文用于记录一些 VitePress 中的特殊的 Markdown 语法或者 Vue 组件
 
 示例皆来源于 [VitePress 官网](https://vitepress.vuejs.org/guide/markdown)
 
