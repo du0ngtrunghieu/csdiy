@@ -11,8 +11,7 @@ C 语言，我的 C 语言 😭😭😭
 
 <<< @/snippets/c/hello.c
 
-![meme](/img/hello_world_meme.png)
-
+![](../../public/img/hello_world_meme.png)
 
 ## 基础语法一览
 

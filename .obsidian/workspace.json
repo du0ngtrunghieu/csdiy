@@ -1,0 +1,113 @@
+{
+  "main": {
+    "id": "7fc9bbff44dc4148",
+    "type": "split",
+    "children": [
+      {
+        "id": "4117c8a4f74fb18f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b59673918a2d3b3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/cs/cs50x/intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2e371556f7350673",
+    "type": "split",
+    "children": [
+      {
+        "id": "0829d808a7165ccc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "514c985ee604d8b0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "185db60ea4169247",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8b2cb5bbca6ac6d3",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 338.5004348754883
+  },
+  "right": {
+    "id": "c33b9b046959e93d",
+    "type": "split",
+    "children": [
+      {
+        "id": "a2a8b2beaeaf20b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d020b4be2ed1bc5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/cs/cs50x/intro.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 243.5,
+    "collapsed": true
+  },
+  "active": "b59673918a2d3b3f",
+  "lastOpenFiles": [
+    "docs/cs/intro.md",
+    "docs/cs/timeline.md",
+    "docs/cs/cs50x/intro.md",
+    "docs/public/logo.svg",
+    "docs/index.md",
+    "docs/lang/c/intro.md",
+    "img/hello_world_meme.png.md",
+    "docs/public/img/Pasted image 20221118201721.png",
+    "README.md",
+    "日/11月/2022-11-17.md"
+  ]
+}

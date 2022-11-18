@@ -1,0 +1,71 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [
+    {
+      "id": "note-refactor-obsidian:app:split-note-content-only",
+      "icon": "activity",
+      "name": "Note Refactor: Split note here - content only",
+      "mode": "any"
+    },
+    {
+      "id": "note-refactor-obsidian:app:extract-selection-content-only",
+      "icon": "corner-down-right",
+      "name": "Note Refactor: Extract selection to new note - content only",
+      "mode": "any"
+    },
+    {
+      "id": "note-refactor-obsidian:app:extract-selection-first-line",
+      "icon": "corner-right-down",
+      "name": "Note Refactor: Extract selection to new note - first line as file name",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [
+    {
+      "id": "obsidian-advanced-slides:open-advanced-slides-preview",
+      "icon": "sliders",
+      "name": "Show Slide Preview",
+      "mode": "any"
+    }
+  ],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "obsidian-local-images:download-images",
+      "icon": "download",
+      "name": "Local images",
+      "mode": "any"
+    },
+    {
+      "id": "workspace:export-pdf",
+      "icon": "external-link",
+      "name": "导出为 PDF",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "查看关系图谱",
+      "打开/创建今天的日记"
+    ]
+  },
+  "spacing": "10",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 2,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}
