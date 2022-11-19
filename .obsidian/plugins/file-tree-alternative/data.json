@@ -1,16 +1,16 @@
 {
   "openViewOnStart": true,
-  "ribbonIcon": true,
-  "showRootFolder": true,
+  "ribbonIcon": false,
+  "showRootFolder": false,
   "showFilesFromSubFolders": false,
   "searchFunction": true,
   "allSearchOnlyInFocusedFolder": false,
-  "showFilesFromSubFoldersButton": true,
-  "revealActiveFileButton": false,
+  "showFilesFromSubFoldersButton": false,
+  "revealActiveFileButton": true,
   "excludedExtensions": "",
-  "folderIcon": "default",
-  "folderCount": true,
-  "folderCountOption": "notes",
+  "folderIcon": "icomoon",
+  "folderCount": false,
+  "folderCountOption": "files",
   "evernoteView": true,
   "filePreviewOnHover": false,
   "iconBeforeFileName": true,
@@ -20,6 +20,6 @@
   "createdYaml": false,
   "fileNameIsHeader": false,
   "folderNote": false,
-  "deleteFileOption": "trash",
-  "showFileNameAsFullPath": false
+  "deleteFileOption": "system-trash",
+  "showFileNameAsFullPath": true
 }
