@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "4117c8a4f74fb18f",
+        "id": "3d64948ae2af9923",
         "type": "tabs",
         "children": [
           {
-            "id": "b59673918a2d3b3f",
+            "id": "c47e1f542c0bc305",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/cs/timeline.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -67,11 +62,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 231.50043487548828
+    "width": 262.5004348754883
   },
   "right": {
     "id": "c33b9b046959e93d",
@@ -86,9 +81,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/cs/timeline.md"
-              }
+              "state": {}
             }
           },
           {
@@ -106,9 +99,15 @@
     "width": 253.5,
     "collapsed": true
   },
-  "active": "b59673918a2d3b3f",
+  "active": "c47e1f542c0bc305",
   "lastOpenFiles": [
+    "README.md",
+    "docs/cs/cs50x/intro.md",
     "docs/cs/intro.md",
+    "docs/public/img/cs50x.png",
+    "docs/public/img/hello_world_meme.png",
+    "docs/public/logo.svg",
+    "docs/lang/c/intro.md",
     "docs/cs/timeline.md",
     "docs/math/18.06/intro.md",
     "docs/lang/flask/intro.md"
