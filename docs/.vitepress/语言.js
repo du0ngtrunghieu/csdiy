@@ -28,7 +28,15 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/lang/flask/intro' },
+                { text: 'MVP', link: '/lang/flask/mvp' },
+            ]
+        },
+        {
+            text: 'Django',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: 'MVP', link: '/lang/django/mvp' },
             ]
         },
         {
@@ -40,6 +48,14 @@ export default function () {
             ]
         },
         {
+            text: 'Rust',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: '入门', link: '/lang/rust/intro' },
+            ]
+        },
+        {
             text: 'JavaScript',
             collapsible: true,
             collapsed: true,
@@ -48,19 +64,19 @@ export default function () {
             ]
         },
         {
+            text: 'TypeScript',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: '入门', link: '/lang/ts/intro' },
+            ]
+        },
+        {
             text: 'Vue',
             collapsible: true,
             collapsed: true,
             items: [
                 { text: '入门', link: '/lang/vue/intro' },
-            ]
-        },
-        {
-            text: 'Rust',
-            collapsible: true,
-            collapsed: true,
-            items: [
-                { text: '入门', link: '/lang/rust/intro' },
             ]
         },
     ]

@@ -28,7 +28,7 @@
 
 ## 徽章
 
-VitePress 自定义的 Vue 组件，默认类型为 tip
+来源于 VitePress 自定义的 Vue 组件，默认类型为 tip
 
 ```md
 ### Title1 <Badge type="info" text="default" />
