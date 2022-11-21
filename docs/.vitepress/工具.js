@@ -3,7 +3,16 @@ export default function () {
         {
             items: [
                 { text: 'Markdown', link: '/tool/markdown' },
-                { text: 'GFW', link: '/tool/gfw' },
+                { text: '翻墙', link: '/tool/gfw' },
+                { text: 'SSH', link: '/tool/ssh' },
+            ]
+        },
+        {
+            text: 'Git',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: '入门', link: '/tool/git/intro' },
             ]
         },
         {
@@ -15,11 +24,19 @@ export default function () {
             ]
         },
         {
-            text: 'Makefile',
+            text: 'Docker',
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/tool/makefile/intro' },
+                { text: '入门', link: '/tool/docker/intro' },
+            ]
+        },
+        {
+            text: 'Make',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: '入门', link: '/tool/make/intro' },
             ]
         },
         {

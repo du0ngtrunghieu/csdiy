@@ -1,5 +1,5 @@
 import 计算机 from './计算机'
-import 语言 from './语言'
+import 编程语言 from './编程语言'
 import 数学 from './数学'
 import 工具 from './工具'
 
@@ -38,7 +38,7 @@ export default {
 
         sidebar: {
             '/cs/': 计算机(),
-            '/lang/': 语言(),
+            '/lang/': 编程语言(),
             '/math/': 数学(),
             '/tool/': 工具(),
         },

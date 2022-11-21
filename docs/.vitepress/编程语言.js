@@ -28,7 +28,7 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: 'MVP', link: '/lang/flask/mvp' },
+                { text: 'Todo', link: '/lang/flask/todo' },
             ]
         },
         {
@@ -36,23 +36,16 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: 'MVP', link: '/lang/django/mvp' },
+                { text: 'Todo', link: '/lang/django/todo' },
             ]
         },
+        
         {
-            text: 'Java',
+            text: 'HTML & CSS',
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/lang/java/intro' },
-            ]
-        },
-        {
-            text: 'Rust',
-            collapsible: true,
-            collapsed: true,
-            items: [
-                { text: '入门', link: '/lang/rust/intro' },
+                { text: '入门', link: '/lang/html-css/intro' },
             ]
         },
         {
@@ -76,7 +69,31 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/lang/vue/intro' },
+                { text: 'Vue2', link: '/lang/vue/vue2' },
+            ]
+        },
+        {
+            text: 'Java',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: '入门', link: '/lang/java/intro' },
+            ]
+        },
+        {
+            text: 'Rust',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: '入门', link: '/lang/rust/intro' },
+            ]
+        },
+        {
+            text: 'Go',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: '入门', link: '/lang/go/intro' },
             ]
         },
     ]

@@ -21,6 +21,14 @@ export default function () {
             items: [
                 { text: '简介', link: '/cs/cs61a/intro' },
             ]
+        },
+        {
+            text: 'Nand2Tetris',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: '简介', link: '/cs/nand2tetris/intro' },
+            ]
         }
     ]
 }
