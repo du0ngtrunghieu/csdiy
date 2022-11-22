@@ -8,11 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c47e1f542c0bc305",
+            "id": "69503faf11d4b6af",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docs/lang/flask/todo.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -62,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -81,7 +86,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/lang/flask/todo.md"
+              }
             }
           },
           {
@@ -99,8 +106,10 @@
     "width": 253.5,
     "collapsed": true
   },
-  "active": "c47e1f542c0bc305",
+  "active": "69503faf11d4b6af",
   "lastOpenFiles": [
+    "docs/tool/markdown.md",
+    "docs/lang/flask/todo.md",
     "README.md",
     "docs/cs/cs50x/intro.md",
     "docs/cs/intro.md",
@@ -108,8 +117,6 @@
     "docs/public/img/hello_world_meme.png",
     "docs/public/logo.svg",
     "docs/lang/c/intro.md",
-    "docs/cs/timeline.md",
-    "docs/math/18.06/intro.md",
-    "docs/lang/flask/intro.md"
+    "docs/cs/timeline.md"
   ]
 }
