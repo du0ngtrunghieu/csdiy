@@ -13,14 +13,14 @@
 
     --vp-code-block-color: var(--vp-c-text-light-1);
     --vp-code-block-bg: var(--vp-c-white-soft);
-    --vp-code-line-highlight-color: rgba(255, 255, 255);
+    --vp-code-line-highlight-color: rgba(240, 255, 213, 0.7);
     --vp-code-line-number-color: var(--vp-c-text-light-2);
 }
 
 .dark {
     --vp-code-block-color: var(--vp-c-text-dark-1);
     --vp-code-block-bg: #292d3e;
-    --vp-code-line-highlight-color: rgba(0, 0, 0, 0.5);
+    --vp-code-line-highlight-color: rgba(2, 17, 2, 0.85);
     --vp-code-line-number-color: var(--vp-c-text-dark-3);
 
     --vp-code-block-bg: var(--vp-c-bg-alt);

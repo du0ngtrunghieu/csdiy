@@ -60,23 +60,21 @@ def hello():
 
 `pip install gunicorn` 方便调试以及之后的部署
 
-新建 `@/Procfile` 文件
+新建 `@/Procfile` 文件，第一个 app 是 Python 模块名，第二个 app 是 Flask 启动文件名
 
 ```
-web: gunicorn app:app
+web:gunicorn app:app
 ```
 
 ```python
 # @/app.py
-import os  // [!code ++]
+import os  // [!code hl]
 from flask import Flask
-
-app = Flask(__name__)
 
 ...
 
-if __name__ == "__main__":   // [!code ++]
-    app.run(debug=True, port=os.getenv("PORT", default=5000))  // [!code ++]
+if __name__ == "__main__":   // [!code hl]
+    app.run(debug=True, port=os.getenv("PORT", default=5000))  // [!code hl]
 ```
 
 之后使用 `python app.py` 启动项目！
@@ -98,7 +96,7 @@ gunicorn
 
 之后就可以用 `pip-compile requirements.in` 生成依赖文件
 
-如需更新依赖项，可以生成 txt 后使用 `pip-sync` 命令
+如需更新依赖项，可以修改 in 文件，生成 txt 后使用 `pip-sync` 命令
 
 
 
@@ -139,7 +137,7 @@ todos = [
 
 
 
-
+## 引入数据库
 
 
 ## 有用的链接？
