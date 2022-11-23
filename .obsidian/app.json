@@ -12,7 +12,7 @@
   "showFrontmatter": true,
   "foldIndent": false,
   "showIndentGuide": false,
-  "spellcheck": false,
+  "spellcheck": true,
   "autoPairMarkdown": false,
   "useTab": false,
   "showLineNumber": false,
@@ -23,5 +23,8 @@
   "defaultViewMode": "source",
   "livePreview": true,
   "showInlineTitle": false,
-  "foldHeading": false
+  "foldHeading": false,
+  "spellcheckLanguages": [
+    "en-US"
+  ]
 }
