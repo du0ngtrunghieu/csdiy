@@ -85,11 +85,9 @@ if __name__ == "__main__":   // [!code hl]
 
 ## 管理依赖
 
-> 引入依赖就代表使用 `pip install` 安装对应依赖，后文皆是如此
+> 引入依赖代表使用 `pip install` 安装对应依赖，后文皆是如此
 
-引入 pip-tools 方便查看依赖关系以及更新依赖
-
-新建 `@/requirements.in` 文件
+引入 pip-tool，新建 `@/requirements.in` 文件
 
 ```
 pip-tools
@@ -98,7 +96,7 @@ flask
 gunicorn
 ```
 
-之后就可以用 `pip-compile requirements.in` 生成依赖文件
+之后就可以用 `pip-compile requirements.in` 生成依赖文件，便于查看依赖之间的关系
 
 如需更新依赖项，可以修改 in 文件，生成 txt 后使用 `pip-sync` 命令进行更新
 

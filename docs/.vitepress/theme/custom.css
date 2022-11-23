@@ -33,6 +33,29 @@
     --vp-code-line-number-color: rgb(175, 175, 175);
 }
 
+
+/********************************************************
+*                        滚动条                         *
+********************************************************/
+::-webkit-scrollbar {
+    width: 6px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    background-color: #535bf231;
+}
+
+::-webkit-scrollbar-thumb:vertical:active {
+    background-color: #2c2f33;
+}
+
 /********************************************************
 *                   Vite Colors                         *
 ********************************************************/
