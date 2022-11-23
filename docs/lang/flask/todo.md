@@ -18,10 +18,13 @@ pip install flask
 
 ## 配置 .gitignore
 
-> 用 @ 代表根目录，可参考 [gitignore.io](https://www.toptal.com/developers/gitignore)
+::: tip
+本文档使用 @ 代表根目录，配置可参考 [gitignore.io](https://www.toptal.com/developers/gitignore)
+:::
+
+新建 `@/.gitignore` 文件
 
 ```
-# @/.gitignore
 .vscode
 *.db
 
@@ -58,9 +61,11 @@ def hello():
 
 ## 引入 gunicorn
 
-`pip install gunicorn` 方便调试以及之后的部署
+:::tip
+引入依赖代表使用 `pip install` 安装对应依赖，后文皆是如此
+:::
 
-新建 `@/Procfile` 文件
+新建 `@/Procfile` 文件，方便之后部署以及调试
 
 第一个 app 是 Python 模块名，第二个 app 是 Flask 启动文件名
 
@@ -70,24 +75,23 @@ web:gunicorn app:app
 
 ```python
 # @/app.py
-import os  // [!code hl]
+import os  // [!code ++]
 from flask import Flask
 
 ...
 
-if __name__ == "__main__":   // [!code hl]
-    app.run(debug=True, port=os.getenv("PORT", default=5000))  // [!code hl]
+if __name__ == "__main__":   // [!code ++]
+    app.run(debug=True, port=os.getenv("PORT", default=5000))  // [!code ++]
 ```
 
-之后使用 `python app.py` 启动项目！
+之后使用 `python app.py` 启动项目，修改项目内容后刷新即可看到变化
 
 
 
-## 管理依赖
+## 引入 pip-tool
 
-> 引入依赖代表使用 `pip install` 安装对应依赖，后文皆是如此
 
-引入 pip-tool，新建 `@/requirements.in` 文件
+新建 `@/requirements.in` 文件
 
 ```
 pip-tools
@@ -135,11 +139,11 @@ todos = [
 ```
 
 
-## 引入 Bootstrap
+## 引入 flask-bootstrap
 
 
 
-## 引入数据库
+## 引入 flask-sqlalchemy
 
 
 ## 有用的链接？
