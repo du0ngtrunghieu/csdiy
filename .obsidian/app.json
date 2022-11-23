@@ -25,6 +25,8 @@
   "showInlineTitle": false,
   "foldHeading": true,
   "spellcheckLanguages": [
-    "en-US"
+    "en-US",
+    "en-GB",
+    "en-AU"
   ]
 }
