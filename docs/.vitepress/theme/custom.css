@@ -2,7 +2,7 @@
 *                        字体                           *
 ********************************************************/
 :root {
-    --vp-font-family-base: 'Inter', '更纱黑体 Mono SC Nerd', '微软雅黑', '苹方-简',
+    --vp-font-family-base: '更纱黑体 Mono SC Nerd', '微软雅黑', '苹方-简',
         ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
         Roboto, 'Helvetica Neue', Helvetica, Arial, 'Noto Sans', sans-serif,
         'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
