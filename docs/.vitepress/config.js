@@ -27,14 +27,12 @@ export default {
         logo: '/logo.svg',
         outlineTitle: '大纲',
 
-
         nav: [
             { text: '计算机', link: '/cs/intro', activeMatch: '/cs/' },
             { text: '编程语言', link: '/lang/c/intro', activeMatch: '/lang/' },
             { text: '数学', link: '/math/intro', activeMatch: '/math/' },
             { text: '工具', link: '/tool/markdown', activeMatch: '/tool/' },
         ],
-
 
         sidebar: {
             '/cs/': 计算机(),
@@ -48,7 +46,6 @@ export default {
             apiKey: '92a72e635c62fa7c6d7e8cf4c56dd44c',
             indexName: 'csdiy',
         },
-
 
         socialLinks: [
             { icon: 'github', link: 'https://github.com/mancuoj' },

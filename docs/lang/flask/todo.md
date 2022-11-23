@@ -60,7 +60,9 @@ def hello():
 
 `pip install gunicorn` 方便调试以及之后的部署
 
-新建 `@/Procfile` 文件，第一个 app 是 Python 模块名，第二个 app 是 Flask 启动文件名
+新建 `@/Procfile` 文件
+
+第一个 app 是 Python 模块名，第二个 app 是 Flask 启动文件名
 
 ```
 web:gunicorn app:app
@@ -83,7 +85,9 @@ if __name__ == "__main__":   // [!code hl]
 
 ## 管理依赖
 
-`pip install pip-tools` 方便查看依赖关系以及更新依赖
+> 引入依赖就代表使用 `pip install` 安装对应依赖，后文皆是如此
+
+引入 pip-tools 方便查看依赖关系以及更新依赖
 
 新建 `@/requirements.in` 文件
 
@@ -96,7 +100,7 @@ gunicorn
 
 之后就可以用 `pip-compile requirements.in` 生成依赖文件
 
-如需更新依赖项，可以修改 in 文件，生成 txt 后使用 `pip-sync` 命令
+如需更新依赖项，可以修改 in 文件，生成 txt 后使用 `pip-sync` 命令进行更新
 
 
 
