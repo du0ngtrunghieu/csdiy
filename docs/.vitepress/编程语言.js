@@ -4,7 +4,8 @@ export default function () {
             text: 'C',
             collapsible: true,
             items: [
-                { text: '入门', link: '/lang/c/intro' },
+                { text: 'Intro', link: '/lang/c/intro' },
+                { text: '指针', link: '/lang/c/pointer' },
             ]
         },
         {
@@ -12,7 +13,7 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/lang/cpp/intro' },
+                { text: 'Intro', link: '/lang/cpp/intro' },
             ]
         },
         {
@@ -20,7 +21,7 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/lang/py/intro' },
+                { text: 'Intro', link: '/lang/py/intro' },
             ]
         },
         {
@@ -28,7 +29,9 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: 'Todo', link: '/lang/flask/todo' },
+                { text: 'Todo0', link: '/lang/flask/todo0' },
+                { text: 'Todo1', link: '/lang/flask/todo1' },
+                { text: 'Todo2', link: '/lang/flask/todo2' },
             ]
         },
         {
@@ -69,7 +72,7 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: 'Vue2', link: '/lang/vue/vue2' },
+                { text: 'Vue2 Todo', link: '/lang/vue/vue2-todo' },
             ]
         },
         {

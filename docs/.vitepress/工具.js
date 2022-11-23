@@ -21,7 +21,7 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/tool/git/intro' },
+                { text: 'Intro', link: '/tool/git/intro' },
             ]
         },
         {
@@ -37,7 +37,7 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/tool/docker/intro' },
+                { text: 'Intro', link: '/tool/docker/intro' },
             ]
         },
         {
@@ -45,7 +45,7 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/tool/make/intro' },
+                { text: 'Intro', link: '/tool/make/intro' },
             ]
         },
         {
@@ -53,7 +53,7 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/tool/cmake/intro' },
+                { text: 'Intro', link: '/tool/cmake/intro' },
             ]
         },
     ]

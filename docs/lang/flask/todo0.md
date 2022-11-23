@@ -1,14 +1,23 @@
-# Flask Todo
+# 0. 磨刀不误砍柴工
 
 对一个 Web 框架，最好的入门方法可能就是参考官方文档写一个简单可用的 App 并部署上线。
 
-所以本文是一篇不那么追究细节的 Todo App 开发实录，也算是给自己写了一个方便以后复制粘贴的 Cheat Sheet 👨‍💻
+所以本系列是一篇不那么追究细节的 Todo App 开发实录，也算是给自己写了一个方便以后复制粘贴的 Cheat Sheet 👨‍💻
 
+## 有用的链接？
+
+- [Flask 文档](https://flask.palletsprojects.com/en/2.2.x/)
+- [Flask 入门教程](https://tutorial.helloflask.com/)
+- [gunicorn](https://gunicorn.org/)
+- [Flask SQLAlchemy 文档](https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/)
+- [用于部署的免费网站 pythonanywhere](https://pythonanywhere.com/)
+- [用于部署的免费网站 Railway](https://railway.app/)
+- ...
 
 
 ## 安装
 
-在虚拟环境中安装 Flask
+首先在虚拟环境中安装 Flask
 
 ```sh
 python3 -m venv env
@@ -118,7 +127,13 @@ Flask 使用 Jinja2 作为模板引擎，来渲染含有变量的 HTML
 ```
 
 
+## 静态文件
 
+静态文件和模板概念相反，指的是内容不需要动态生成的文件，比如图片、CSS 文件和 JavaScript 文件等。
+
+```css
+
+```
 
 
 ## 主页模板
@@ -138,20 +153,3 @@ todos = [
 ]
 ```
 
-
-## 引入 flask-bootstrap
-
-
-
-## 引入 flask-sqlalchemy
-
-
-## 有用的链接？
-
-- [Flask 文档](https://flask.palletsprojects.com/en/2.2.x/)
-- [一本开源的 Flask 入门教程](https://tutorial.helloflask.com/)
-- [gunicorn](https://gunicorn.org/)
-- [Flask SQLAlchemy 文档](https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/)
-- [用于部署的免费网站 pythonanywhere](https://pythonanywhere.com/)
-- [用于部署的免费网站 Railway](https://railway.app/)
-- ...
