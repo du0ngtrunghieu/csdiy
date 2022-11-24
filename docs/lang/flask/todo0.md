@@ -36,16 +36,9 @@ pip install flask
 ```
 .vscode
 *.db
-
-__pycache__/
-*.py[cod]
-*$py.class
-
+__pycache__
+env
 .env
-.venv
-env/
-venv/
-ENV/
 ```
 
 
@@ -53,7 +46,7 @@ ENV/
 ## 一个最小的 App
 
 ```python
-# @/app.py
+# @/todo/app.py
 from flask import Flask
 
 app = Flask(__name__)
@@ -63,9 +56,6 @@ app = Flask(__name__)
 def hello():
     return "<h1>Hello, Flask!</h1>"
 ```
-
-在终端输入 `flask run` 即可在网页中查看结果
-
 
 
 ## 引入 gunicorn
@@ -93,7 +83,7 @@ if __name__ == "__main__":   // [!code ++]
     app.run(debug=True, port=os.getenv("PORT", default=5000))  // [!code ++]
 ```
 
-之后使用 `python app.py` 启动项目，修改项目内容后刷新即可看到变化
+之后使用 `python app.py` 启动项目，即可在网页中查看结果
 
 
 

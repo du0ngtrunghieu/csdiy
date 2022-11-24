@@ -8,6 +8,7 @@
 - [Git 原理入门](https://www.ruanyifeng.com/blog/2018/10/git-internals.html)
 - [常用 Git 命令清单](https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
 - [Git 的奇技淫巧](https://github.com/521xueweihan/git-tips)
+- [Git 飞行规则](https://github.com/k88hudson/git-flight-rules/blob/master/README_zh-CN.md)
 - ...
 
 
