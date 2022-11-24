@@ -46,7 +46,7 @@ env
 ## 一个最小的 App
 
 ```python
-# @/todo/app.py
+# @/app.py
 from flask import Flask
 
 app = Flask(__name__)
