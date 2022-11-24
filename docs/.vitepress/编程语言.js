@@ -48,7 +48,7 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/lang/html-css/intro' },
+                { text: 'Intro', link: '/lang/html-css/intro' },
             ]
         },
         {
@@ -56,7 +56,7 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/lang/js/intro' },
+                { text: 'Intro', link: '/lang/js/intro' },
             ]
         },
         {
@@ -64,7 +64,7 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/lang/ts/intro' },
+                { text: 'Intro', link: '/lang/ts/intro' },
             ]
         },
         {
@@ -80,7 +80,7 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/lang/java/intro' },
+                { text: 'Intro', link: '/lang/java/intro' },
             ]
         },
         {
@@ -88,7 +88,7 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/lang/rust/intro' },
+                { text: 'Intro', link: '/lang/rust/intro' },
             ]
         },
         {
@@ -96,7 +96,7 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '入门', link: '/lang/go/intro' },
+                { text: 'Intro', link: '/lang/go/intro' },
             ]
         },
     ]
