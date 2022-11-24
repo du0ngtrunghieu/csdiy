@@ -27,9 +27,7 @@ pip install flask
 
 ## 配置 .gitignore
 
-::: tip  
-本文档使用 @ 代表根目录，配置可参考 [gitignore.io](https://www.toptal.com/developers/gitignore)  
-:::
+> 本文档使用 @ 代表根目录，配置可参考 [gitignore.io](https://www.toptal.com/developers/gitignore)  
 
 新建 `@/.gitignore` 文件
 
@@ -60,9 +58,7 @@ def hello():
 
 ## 引入 gunicorn
 
-:::tip  
-引入依赖代表使用 `pip install` 安装对应依赖，后文皆是如此  
-:::
+> 引入依赖代表使用 `pip install` 安装对应依赖，后文皆是如此
 
 新建 `@/Procfile` 文件，方便之后部署以及调试
 
