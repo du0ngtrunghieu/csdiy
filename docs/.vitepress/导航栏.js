@@ -7,7 +7,13 @@ export default function () {
         {
             text: '关于',
             items: [
-                { text: '时间轴', link: '/timeline' }
+                { text: '时间轴', link: '/timeline' },
+                {
+                    items: [
+                        { text: '小作文', link: '/en/2a' },
+                        { text: '大作文', link: '/en/2b' },
+                    ]
+                }
             ]
         }
     ]

@@ -3,7 +3,6 @@ export default function () {
         {
             items: [
                 { text: '学习路线', link: '/cs/intro' },
-                { text: '时间轴', link: '/cs/timeline' },
             ]
         },
         {

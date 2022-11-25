@@ -8,15 +8,6 @@ export default function () {
             ]
         },
         {
-            text: 'English',
-            collapsible: true,
-            collapsed: true,
-            items: [
-                { text: '英语二小作文', link: '/tool/en/2a' },
-                { text: '英语二大作文', link: '/tool/en/2b' },
-            ]
-        },
-        {
             text: 'Git',
             collapsible: true,
             collapsed: true,
