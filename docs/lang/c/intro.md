@@ -12,7 +12,7 @@ C 语言，我的 C 语言 😭😭😭
 
 ## 你好，世界！
 
-事已至此，写一个 Hello World 压压惊吧 🤣
+先写一个 Hello World 压压惊吧 🤣
 
 ```c
 #include <stdio.h>
