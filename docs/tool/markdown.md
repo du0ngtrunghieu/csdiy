@@ -16,7 +16,7 @@
 来源于 VitePress 使用的 md 解析器 [markdown-it](https://github.com/markdown-it/markdown-it)
 
 ```md
-::: info/tip/warning/danger/details 标题可选
+:::tip/info/warning/danger/details 标题可选
 你好，世界！
 :::
 ```
