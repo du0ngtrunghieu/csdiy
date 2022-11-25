@@ -2,6 +2,7 @@ import 计算机 from './计算机'
 import 编程语言 from './编程语言'
 import 数学 from './数学'
 import 工具 from './工具'
+import 导航栏 from './导航栏'
 
 export default {
     title: 'Mancuoj',
@@ -27,12 +28,7 @@ export default {
         logo: '/logo.svg',
         outlineTitle: '大纲',
 
-        nav: [
-            { text: '计算机', link: '/cs/intro', activeMatch: '/cs/' },
-            { text: '编程语言', link: '/lang/c/intro', activeMatch: '/lang/' },
-            { text: '数学', link: '/math/intro', activeMatch: '/math/' },
-            { text: '工具', link: '/tool/markdown', activeMatch: '/tool/' },
-        ],
+        nav: 导航栏(),
 
         sidebar: {
             '/cs/': 计算机(),

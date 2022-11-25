@@ -8,17 +8,19 @@
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
   },
-  "keywords": [
-    "vue",
-    "vite",
-    "vitepress",
-    "template"
-  ],
-  "author": "Mancuoj",
-  "license": "MIT",
   "dependencies": {
     "@giscus/vue": "^2.2.3",
     "vitepress": "1.0.0-alpha.29",
     "vue": "^3.2.45"
-  }
+  },
+  "devDependencies": {
+    "medium-zoom": "^1.0.8"
+  },
+  "keywords": [
+    "vue",
+    "vite",
+    "vitepress"
+  ],
+  "author": "Mancuoj",
+  "license": "MIT"
 }

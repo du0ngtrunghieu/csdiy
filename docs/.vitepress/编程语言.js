@@ -39,10 +39,17 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: 'Todo', link: '/lang/django/todo' },
+                { text: 'Todo0', link: '/lang/django/todo' },
             ]
         },
-        
+        {
+            text: 'FastAPI',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: 'Intro', link: '/lang/fastapi/intro' },
+            ]
+        },
         {
             text: 'HTML & CSS',
             collapsible: true,
