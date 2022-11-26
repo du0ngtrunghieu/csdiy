@@ -7,7 +7,5 @@
 - [Harvard CS50x](./cs50x/intro)
 - [UCB CS61A](./cs61a/intro)
 - Nand2Tetris
-- CS61B
+- UCB CS61B
 - ...
-
-
