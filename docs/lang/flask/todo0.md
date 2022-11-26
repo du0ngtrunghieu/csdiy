@@ -1,6 +1,6 @@
 # 0. 磨刀不误砍柴工
 
-对一个 Web 框架，最好的入门方法可能就是参考官方文档写一个简单可用的 App 并部署上线
+对一个 Web 框架，最好的入门方法可能就是参考官方文档写一个简单可用的 App 并部署上线。
 
 所以本系列是一篇不那么追究细节的 Todo App 开发实录，也算是给自己写了一个方便以后复制粘贴的 Cheat Sheet 👨‍💻
 
@@ -87,7 +87,7 @@ if __name__ == "__main__":   // [!code ++]
 ## 引入 pip-tool
 
 
-新建 `@/requirements.in` 文件，black 是一个格式化工具，可修改。
+新建 `@/requirements.in` 文件，black 是一个格式化工具：
 
 ```
 pip-tools
@@ -96,9 +96,9 @@ flask
 gunicorn
 ```
 
-之后可以用 `pip-compile requirements.in` 生成依赖文件，便于查看依赖之间的关系。
+之后可以使用 `pip-compile requirements.in` 命令生成依赖文件，便于查看依赖之间的关系。
 
-如需更新依赖项，可以修改 in 文件，重新使用上面的命令生成 txt 后，使用 `pip-sync` 命令进行更新。
+如需更新依赖项，可以修改 in 文件后重新生成 txt，使用 `pip-sync` 命令进行更新。
 
 
 
@@ -131,7 +131,7 @@ Flask 使用 Jinja2 作为模板引擎，可以渲染含有变量的 HTML。
 ```
 
 
-准备虚拟数据并传入主页
+准备虚拟数据并传入主页：
 
 ```python
 # @/app.py
