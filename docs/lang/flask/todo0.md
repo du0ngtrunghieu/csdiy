@@ -20,7 +20,7 @@
 
 ## 安装
 
-首先在虚拟环境中安装 Flask
+首先在虚拟环境中安装 Flask：
 
 ```sh
 python3 -m venv env
@@ -32,7 +32,7 @@ pip install flask
 
 > 本文档使用 @ 代表根目录，配置可参考 [gitignore.io](https://www.toptal.com/developers/gitignore)  
 
-新建 `@/.gitignore` 文件
+新建 `@/.gitignore` 文件：
 
 ```
 .vscode
@@ -63,9 +63,7 @@ def hello():
 
 > 引入依赖代表使用 `pip install` 安装对应依赖，后文皆是如此
 
-新建 `@/Procfile` 文件，方便之后部署以及调试
-
-第一个 app 是 Python 模块名，第二个 app 是 Flask 启动文件名
+新建 `@/Procfile` 文件，第一个 app 是 Python 模块名，第二个 app 是 Flask 启动文件名：
 
 ```
 web:gunicorn app:app
@@ -82,14 +80,14 @@ if __name__ == "__main__":   // [!code ++]
     app.run(debug=True, port=os.getenv("PORT", default=5000))  // [!code ++]
 ```
 
-之后使用 `python app.py` 启动项目，即可在网页中查看结果
+之后可以使用 `python app.py` 代替 `flask run` 启动项目，便于调试以及之后的部署。
 
 
 
 ## 引入 pip-tool
 
 
-新建 `@/requirements.in` 文件
+新建 `@/requirements.in` 文件，black 是一个格式化工具，可修改。
 
 ```
 pip-tools
@@ -98,18 +96,18 @@ flask
 gunicorn
 ```
 
-之后就可以用 `pip-compile requirements.in` 生成依赖文件，便于查看依赖之间的关系
+之后可以用 `pip-compile requirements.in` 生成依赖文件，便于查看依赖之间的关系。
 
-如需更新依赖项，可以修改 in 文件，生成 txt 后使用 `pip-sync` 命令进行更新
+如需更新依赖项，可以修改 in 文件，重新使用上面的命令生成 txt 后，使用 `pip-sync` 命令进行更新。
 
 
 
 
 ## 模板
 
-Flask 使用 Jinja2 作为模板引擎，来渲染含有变量的 HTML
+Flask 使用 Jinja2 作为模板引擎，可以渲染含有变量的 HTML。
 
-创建一个通用的基础模板
+创建一个通用的基础模板：
 
 ```html
 <!-- @/templates/base.html -->
@@ -118,7 +116,7 @@ Flask 使用 Jinja2 作为模板引擎，来渲染含有变量的 HTML
 
 ## 静态文件
 
-静态文件和模板概念相反，指的是内容不需要动态生成的文件，比如图片、CSS 文件和 JavaScript 文件等。
+静态文件和模板概念相反，指的是内容不需要动态生成的文件，比如图片、CSS 文件和 JS 文件等。
 
 ```css
 
