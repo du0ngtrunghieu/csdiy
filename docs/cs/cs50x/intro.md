@@ -35,7 +35,7 @@ Malan 教授上课非常有激情，撕黄页讲二分法的场面让人记忆�
 
 ![](/img/cs50x.png)
 
-## 有用的链接？
+## 一些有用的链接
 
 - [我自己关于作业的解答](https://github.com/mancuoj/CS50x) 仅供参考捏
 - [课程链接](https://cs50.harvard.edu/x) CS50 和 CS50x 的区别大概就是一个面向校内学生，一个面向大众

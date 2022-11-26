@@ -1,17 +1,20 @@
 # 0. 磨刀不误砍柴工
 
-对一个 Web 框架，最好的入门方法可能就是参考官方文档写一个简单可用的 App 并部署上线。
+对一个 Web 框架，最好的入门方法可能就是参考官方文档写一个简单可用的 App 并部署上线
 
 所以本系列是一篇不那么追究细节的 Todo App 开发实录，也算是给自己写了一个方便以后复制粘贴的 Cheat Sheet 👨‍💻
 
-## 有用的链接？
+## 参考链接
 
 - [Flask 文档](https://flask.palletsprojects.com/en/2.2.x/)
 - [Flask 入门教程](https://tutorial.helloflask.com/)
 - [gunicorn](https://gunicorn.org/)
+- [Jinja 文档](https://jinja.palletsprojects.com/en/3.0.x/)
 - [Flask SQLAlchemy 文档](https://flask-sqlalchemy.palletsprojects.com/en/3.0.x/)
-- [用于部署的免费网站 pythonanywhere](https://pythonanywhere.com/)
-- [用于部署的免费网站 Railway](https://railway.app/)
+- [Bootstrap-Flask 文档](https://bootstrap-flask.readthedocs.io/en/stable/basic/)
+- [Bootstrap 文档](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
+- [Railway 用于部署](https://railway.app/)
+- [pythonanywhere 用于部署](https://pythonanywhere.com/)
 - ...
 
 

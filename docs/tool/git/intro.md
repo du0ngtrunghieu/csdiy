@@ -14,7 +14,7 @@
 - ...
 
 
-## 一些好用的 zsh 配置
+## 自用 zsh 配置
 
 > 某些操作需要安装 [hub](https://github.com/github/hub) 后才能使用
 
