@@ -4,6 +4,8 @@
 
 ## 一些想看或正在看的课
 
+> 标记完成只代表完成了该门课的大部分作业，并不代表我已经消化吸收捏
+
 - [x] [Harvard CS50x](./cs50x/intro)
 - UCB CS61A
 - Nand2Tetris
