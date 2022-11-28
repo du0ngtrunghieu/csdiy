@@ -13,6 +13,7 @@ export default {
 
     head: [
         ['link', { rel: 'icon', href: '/logo.svg' }],
+        ['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css' }],
         ['meta', { name: 'keywords', content: 'Mancuoj, 计算机, 数学, 笔记, 编程语言, 公开课' }],
     ],
 
@@ -21,7 +22,15 @@ export default {
             light: 'github-light',
             dark: 'github-dark'
         },
+        
         // lineNumbers: true,
+
+        config: (md) => {
+            md.use(require('markdown-it-task-list-plus'), { activeStyle: { 'vertical-align': 'baseline', 'background': '#9499ff', "border-color": "#9499ff", 'border-radius': '1px' } })
+                .use(require('markdown-it-imsize'))
+                .use(require('markdown-it-smartarrows'))
+                .use(require('markdown-it-texmath'), { engine: require('katex'), delimiters: 'dollars', katexOptions: { macros: { "\\RR": "\\mathbb{R}" } } })
+        }
     },
 
     themeConfig: {

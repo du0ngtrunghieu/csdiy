@@ -13,7 +13,7 @@
 
 ## 自定义容器
 
-来源于 VitePress 使用的 md 解析器 [markdown-it](https://github.com/markdown-it/markdown-it)
+来源于 VitePress 自带的解析器插件 markdown-it-container
 
 ```md
 :::tip/info/warning/danger/details 标题可选
@@ -21,12 +21,18 @@
 :::
 ```
 
+## 自定义图片大小
+
+来源于 markdown-it-imsize，具体如何引入可查看 [VitePress 魔改](/lang/vue/vitepress)
+
+```md
+![test](xx.png =100x200)
+```
 
 
+## 徽章 <Badge type="warning" text="Badge" />
 
-## 徽章 <Badge type="info" text="介绍" />
-
-来源于 VitePress 自定义的 Vue 组件，默认类型为 tip
+来源于 VitePress 自带的 Vue 组件，默认类型为 tip
 
 ```md
 ### Title1 <Badge type="info" text="default" />

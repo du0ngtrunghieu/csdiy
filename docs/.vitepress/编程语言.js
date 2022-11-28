@@ -29,6 +29,14 @@ export default function () {
             ]
         },
         {
+            text: 'Vue',
+            collapsible: true,
+            collapsed: true,
+            items: [
+                { text: 'VitePress', link: '/lang/vue/vitepress' },
+            ]
+        },
+        {
             text: 'Java',
             collapsible: true,
             collapsed: true,

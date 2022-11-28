@@ -4,7 +4,7 @@
 
 ## 一些想看或正在看的课
 
-- [Harvard CS50x](./cs50x/intro)
+- [x] [Harvard CS50x](./cs50x/intro)
 - UCB CS61A
 - Nand2Tetris
 - UCB CS61B

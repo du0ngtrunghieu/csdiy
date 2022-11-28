@@ -2,6 +2,13 @@
   "name": "csdiy",
   "version": "1.0.0",
   "description": "A CS learning trip",
+  "keywords": [
+    "vue",
+    "vite",
+    "vitepress"
+  ],
+  "author": "Mancuoj",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "dev": "vitepress dev docs",
@@ -14,12 +21,9 @@
     "vue": "^3.2.45"
   },
   "devDependencies": {
-  },
-  "keywords": [
-    "vue",
-    "vite",
-    "vitepress"
-  ],
-  "author": "Mancuoj",
-  "license": "MIT"
+    "markdown-it-imsize": "^2.0.1",
+    "markdown-it-smartarrows": "^1.0.1",
+    "markdown-it-task-list-plus": "^2.1.3",
+    "markdown-it-texmath": "^1.0.0"
+  }
 }
