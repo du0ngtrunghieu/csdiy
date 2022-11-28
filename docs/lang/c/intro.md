@@ -18,7 +18,7 @@ C 语言，我的 C 语言 😭😭😭
 #include <stdio.h>
 
 int main() {
-  printf("Hello World!");
+  printf("Hello World!");  // [!code hl]
   return 0;
 }
 ```

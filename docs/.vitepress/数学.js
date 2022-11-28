@@ -6,12 +6,25 @@ export default function () {
             ]
         },
         {
+            text: '微积分',
+            collapsible: true,
+            collapsed: true,
+            items: [
+            ]
+        },
+        {
             text: '线性代数',
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '简介', link: '/math/18.06/intro' },
             ]
         },
+        {
+            text: '离散数学',
+            collapsible: true,
+            collapsed: true,
+            items: [
+            ]
+        }
     ]
 } 

@@ -40,7 +40,7 @@
 ********************************************************/
 ::-webkit-scrollbar {
     width: 6px;
-    height: 10px;
+    height: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -57,6 +57,12 @@
 
 ::-webkit-scrollbar-thumb:vertical:active {
     background-color: #2c2f33;
+}
+
+@media (max-width: 768px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
 }
 
 /********************************************************
