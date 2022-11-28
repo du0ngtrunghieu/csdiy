@@ -2,7 +2,7 @@
 
 本文用于记录一些 VitePress 中的特殊的 Markdown 语法或者 Vue 组件
 
-示例皆参考自 [VitePress 官网](https://vitepress.vuejs.org/guide/markdown)，之后也会尝试自制一些 Vue 组件（夹带私货警告
+示例皆参考自 [VitePress 官网](https://vitepress.vuejs.org/guide/markdown)，之后也会尝试自制一些 Vue 组件
 
 ## 生成目录
 
@@ -24,7 +24,7 @@
 
 
 
-## 徽章
+## 徽章 <Badge type="info" text="介绍" />
 
 来源于 VitePress 自定义的 Vue 组件，默认类型为 tip
 
