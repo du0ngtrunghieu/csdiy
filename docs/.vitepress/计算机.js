@@ -18,7 +18,6 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '简介', link: '/cs/cs61a/intro' },
             ]
         },
         {
@@ -26,8 +25,21 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '简介', link: '/cs/nand2tetris/intro' },
             ]
-        }
+        },
+        {
+            text: 'CS61B',
+            collapsible: true,
+            collapsed: true,
+            items: [
+            ]
+        },
+        {
+            text: 'CS61C',
+            collapsible: true,
+            collapsed: true,
+            items: [
+            ]
+        },
     ]
 }

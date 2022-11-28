@@ -5,7 +5,10 @@
 一个简单的计划表：
 
 - [Harvard CS50x](./cs50x/intro)
-- [UCB CS61A](./cs61a/intro)
+- UCB CS61A
 - Nand2Tetris
 - UCB CS61B
+- 华科 计算机硬件系统设计
+- UCB CS61C
+- Stanford CS106B
 - ...

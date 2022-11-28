@@ -4,7 +4,6 @@ export default function () {
             items: [
                 { text: 'Markdown', link: '/tool/markdown' },
                 { text: '翻墙', link: '/tool/gfw' },
-                { text: 'SSH', link: '/tool/ssh' },
             ]
         },
         {
@@ -20,7 +19,6 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: '配置', link: '/tool/latex/config' },
             ]
         },
         {
@@ -28,7 +26,6 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: 'Intro', link: '/tool/docker/intro' },
             ]
         },
         {
@@ -36,7 +33,6 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: 'Intro', link: '/tool/make/intro' },
             ]
         },
         {
@@ -44,7 +40,6 @@ export default function () {
             collapsible: true,
             collapsed: true,
             items: [
-                { text: 'Intro', link: '/tool/cmake/intro' },
             ]
         },
     ]
