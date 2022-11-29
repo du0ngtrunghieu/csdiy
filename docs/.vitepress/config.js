@@ -46,11 +46,11 @@ export default {
             '/tool/': 工具(),
         },
 
-        algolia: {
-            appId: 'H3P6LM1NIF',
-            apiKey: '92a72e635c62fa7c6d7e8cf4c56dd44c',
-            indexName: 'csdiy',
-        },
+        // algolia: {
+        //     appId: 'H3P6LM1NIF',
+        //     apiKey: '92a72e635c62fa7c6d7e8cf4c56dd44c',
+        //     indexName: 'csdiy',
+        // },
 
         socialLinks: [
             { icon: 'github', link: 'https://github.com/mancuoj' },
