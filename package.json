@@ -16,9 +16,9 @@
     "serve": "vitepress serve docs"
   },
   "dependencies": {
-    "vue": "^3.2.45"
   },
   "devDependencies": {
+    "vue": "^3.2.45",
     "vitepress": "1.0.0-alpha.29",
     "@giscus/vue": "^2.2.3",
     "katex": "^0.16.3",
