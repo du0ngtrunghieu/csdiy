@@ -1,21 +1,11 @@
 {
   "name": "csdiy",
   "version": "1.0.0",
-  "description": "A CS learning trip",
-  "keywords": [
-    "vue",
-    "vite",
-    "vitepress"
-  ],
-  "author": "Mancuoj",
-  "license": "MIT",
-  "main": "index.js",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs"
   },
-  "dependencies": {},
   "devDependencies": {
     "vue": "^3.2.45",
     "vitepress": "1.0.0-alpha.29",

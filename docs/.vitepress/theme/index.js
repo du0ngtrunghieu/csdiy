@@ -1,5 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
-import Comment from './Comment.vue'
+import Comment from './components/Comment.vue'
 import './custom.css'
 
 export default {
