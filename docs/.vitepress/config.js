@@ -36,9 +36,7 @@ export default {
     themeConfig: {
         logo: '/logo.svg',
         outlineTitle: '大纲',
-
         nav: 导航栏(),
-
         sidebar: {
             '/cs/': 计算机(),
             '/lang/': 编程语言(),

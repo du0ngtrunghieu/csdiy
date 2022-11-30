@@ -8,9 +8,9 @@ hero:
   name: CSDIY
   text: 计算机自学之路
   tagline: 记录知识、笔记、感想以及各种正经教程（不是
-  # image:
-  #   src: /logo.svg
-  #   alt: logo
+  image:
+    src: /book.svg
+    alt: logo
   actions:
     - theme: brand
       text: 开始阅读
