@@ -13,7 +13,7 @@
 
 ## 自定义容器
 
-来源于 VitePress 自带的解析器插件 markdown-it-container
+来源于 VitePress 自带的 markdown-it 的插件 markdown-it-container
 
 ```md
 :::tip/info/warning/danger/details 标题可选
@@ -23,7 +23,7 @@
 
 ## 自定义图片大小
 
-来源于 markdown-it-imsize，具体如何引入可查看 [VitePress 魔改](/lang/vue/vitepress)
+来源于 markdown-it-imsize ，具体如何引入插件可查看 [VitePress 魔改](/lang/vue/vitepress)
 
 ```md
 ![test](xx.png =100x200)
@@ -78,4 +78,6 @@ export default {
 <<< @/snippets/snippet.cs{1,2,4-6 c#}
 ```
 
+
+## 代码组
 
