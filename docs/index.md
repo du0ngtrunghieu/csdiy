@@ -7,7 +7,7 @@ titleTemplate: 知识库
 hero:
   name: CSDIY
   text: 计算机自学之路
-  tagline: 记录知识、笔记、感想以及各种正经教程（不是
+  tagline: 记录笔记、感想、碎碎念以及各种不正经教程（不是
   image:
     src: /book.svg
     alt: logo
