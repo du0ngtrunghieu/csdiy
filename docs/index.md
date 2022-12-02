@@ -9,7 +9,7 @@ hero:
   text: 计算机自学之路
   tagline: 记录笔记、感想、碎碎念以及各种不正经教程（不是
   image:
-    src: /book.svg
+    src: /bulb.svg
     alt: logo
   actions:
     - theme: brand
