@@ -2,7 +2,7 @@ export default function () {
     return [
         {
             items: [
-                { text: '翻墙', link: '/tool/gfw' },
+                { text: 'GFW', link: '/tool/gfw' },
                 { text: 'Markdown', link: '/tool/markdown' },
                 { text: 'Monorepo', link: '/tool/monorepo' },
             ]

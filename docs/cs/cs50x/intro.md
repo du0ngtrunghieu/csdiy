@@ -1,4 +1,4 @@
-# 简介 <Badge type="tip" text="已完成" />
+# 简介
 
 > 摘自 [CS 自学指南](https://csdiy.wiki/) 的评价
 

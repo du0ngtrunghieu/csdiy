@@ -1,8 +1,7 @@
 # Markdown
 
-本文用于记录一些 VitePress 中的特殊的 Markdown 语法或者 Vue 组件
+记录本文档里的一些特殊的 Markdown 语法，更多请参考 [VitePress 官方文档](https://vitepress.vuejs.org/guide/markdown)
 
-示例皆参考自 [VitePress 官网](https://vitepress.vuejs.org/guide/markdown)，之后也会尝试自制一些 Vue 组件
 
 ## 生成目录
 
@@ -10,10 +9,27 @@
 [[toc]]
 ```
 
+## HTML 标签
+
+<div align="center">
+H<sub>sub</sub>O，10<sup>sup</sup>，<b>b</b>，<i>i</i>，<u>u</u>，<mark>mark</mark>，<del>del</del>，<a>a</a>，<big>big</big>, <small>small</small>
+</div>
+
+<h1 align="center">h123456</h1>
+
+```html
+<div align="center">
+  ...
+</div>
+
+<h1 align="center">h123456</h1>
+```
 
 ## 自定义容器
 
+:::tip
 来源于 VitePress 自带的 markdown-it 的插件 markdown-it-container
+:::
 
 ```md
 :::tip/info/warning/danger/details 标题可选
@@ -23,7 +39,7 @@
 
 ## 自定义图片大小
 
-来源于 markdown-it-imsize ，具体如何引入插件可查看 [VitePress 魔改](/lang/vue/vitepress)
+来源于插件 markdown-it-imsize ，引入方法可查看 [VitePress](/lang/vue/vitepress)
 
 ```md
 ![test](xx.png =100x200)
@@ -46,11 +62,16 @@
 
 ## 代码高亮
 
-````md
+````md{1,5,7-8}
 ```js{1,5,7-8}
-
-...
-
+msg: "全体目光向我看齐",
+msg: "全体目光向我看齐",
+msg: "全体目光向我看齐",
+msg: "亮✨",
+msg: "全体目光向我看齐",
+msg: "亮✨",
+msg: "亮✨",
+msg: "全体目光向我看齐"
 ```
 ````
 
