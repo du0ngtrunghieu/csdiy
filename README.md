@@ -1,8 +1,8 @@
 <div align="center">
-<h1>Mancuoj's Docs</h1>
-<img alt="GitHub stars" src="https://img.shields.io/github/stars/mancuoj/csdiy?style=social">
-<img alt="GitHub forks" src="https://img.shields.io/github/forks/mancuoj/csdiy?style=social">
-<img alt="MIT" src="https://img.shields.io/github/license/mancuoj/csdiy"></a>
+<h1>Mancuoj's Docs 📖</h1>
+<img alt="GitHub stars" src="https://img.shields.io/github/stars/mancuoj/csdiy?style=flat-square">
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/mancuoj/csdiy?style=flat-square">
+<img alt="MIT" src="https://img.shields.io/github/license/mancuoj/csdiy?style=flat-square"></a>
 </div>
 
 <br>
@@ -13,5 +13,6 @@
 
 在线查看：https://csdiy.netlify.app/
 
+<br>
 
 ![Alt](https://repobeats.axiom.co/api/embed/4367d6a5e378e217e88ffa6a637a98e5568a74ce.svg "Repobeats analytics image")
