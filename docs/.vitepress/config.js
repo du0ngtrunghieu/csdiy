@@ -18,13 +18,11 @@ export default {
     ],
 
     markdown: {
+        // lineNumbers: true,
         theme: {
             light: 'github-light',
             dark: 'github-dark'
         },
-        
-        // lineNumbers: true,
-
         config: (md) => {
             md.use(require('markdown-it-task-list-plus'), { activeStyle: { 'vertical-align': 'baseline', 'background': '#9499ff', "border-color": "#9499ff", 'border-radius': '1px' } })
                 .use(require('markdown-it-imsize'))
@@ -34,7 +32,7 @@ export default {
     },
 
     themeConfig: {
-        logo: '/logo.svg',
+        // logo: '/logo.svg',
         outlineTitle: '大纲',
         nav: 导航栏(),
         sidebar: {
