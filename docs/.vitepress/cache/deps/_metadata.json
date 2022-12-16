@@ -1,0 +1,32 @@
+{
+  "hash": "be3d54b6",
+  "browserHash": "f11a9c64",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/.pnpm/vue@3.2.45/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "2aa1e9e3",
+      "needsInterop": false
+    },
+    "medium-zoom": {
+      "src": "../../../../node_modules/.pnpm/medium-zoom@1.0.8/node_modules/medium-zoom/dist/medium-zoom.esm.js",
+      "file": "medium-zoom.js",
+      "fileHash": "c25bac1e",
+      "needsInterop": false
+    },
+    "@giscus/vue": {
+      "src": "../../../../node_modules/.pnpm/@giscus+vue@2.2.3_vue@3.2.45/node_modules/@giscus/vue/dist/index.mjs",
+      "file": "@giscus_vue.js",
+      "fileHash": "6c8203fb",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-US7RK326": {
+      "file": "chunk-US7RK326.js"
+    },
+    "giscus.cb57b339-73QC5KJE": {
+      "file": "giscus__cb57b339-73QC5KJE.js"
+    }
+  }
+}

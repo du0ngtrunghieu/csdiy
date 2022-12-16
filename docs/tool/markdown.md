@@ -102,3 +102,33 @@ export default {
 
 ## 代码组
 
+````
+::: code-group
+```sh [npm]
+npm install
+```
+
+```sh [yarn]
+yarn install
+```
+
+```sh [pnpm]
+pnpm install
+```
+:::
+````
+
+
+::: code-group
+```sh [npm]
+npm install
+```
+
+```sh [yarn]
+yarn install
+```
+
+```sh [pnpm]
+pnpm install
+```
+:::
