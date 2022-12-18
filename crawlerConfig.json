@@ -1,7 +1,7 @@
 {
     "index_name": "csdiy", 
     "start_urls": [
-        "https://cs.hrh.icu/"
+        "https://csdiy.netlify.app/"
     ],
     "rateLimit": 8,
     "maxDepth": 10,
