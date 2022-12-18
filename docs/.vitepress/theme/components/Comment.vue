@@ -10,7 +10,7 @@ const { Layout } = DefaultTheme
 <template>
   <Layout>
     <template #doc-after>
-      <div id="giscus" :key="isDark">
+      <div id="giscus">
         <Giscus id="comments" repo="mancuoj/csdiy" repoId="R_kgDOIcH4QA" category="Announcements"
           categoryId="DIC_kwDOIcH4QM4CSljH" mapping="pathname" strict="1" reactionsEnabled="1" emitMetadata="0"
           inputPosition="top" lang="zh-CN" loading="lazy" :theme="[isDark ? 'transparent_dark' : 'light_tritanopia']" />
