@@ -43,11 +43,13 @@ export default {
             '/tool/': 工具(),
         },
 
-        // algolia: {
-        //     appId: 'H3P6LM1NIF',
-        //     apiKey: '92a72e635c62fa7c6d7e8cf4c56dd44c',
-        //     indexName: 'csdiy',
-        // },
+        algolia: {
+            appId: 'HXD7HKZWV7',
+            apiKey: '8abc20cdb36302bd6622683ba0241626',
+            indexName: 'csdiy',
+            // placeholder: '请输入关键词',
+            // buttonText: '搜索',
+        },
 
         socialLinks: [
             { icon: 'github', link: 'https://github.com/mancuoj' },
