@@ -28,7 +28,7 @@ H<sub>sub</sub>O，10<sup>sup</sup>，<b>b</b>，<i>i</i>，<u>u</u>，<mark>mar
 ## 自定义容器
 
 :::tip
-来源于 VitePress 自带的 markdown-it 的插件 markdown-it-container
+来源于插件 markdown-it-container
 :::
 
 ```md
@@ -48,7 +48,6 @@ H<sub>sub</sub>O，10<sup>sup</sup>，<b>b</b>，<i>i</i>，<u>u</u>，<mark>mar
 
 ## 徽章 <Badge type="warning" text="Badge" />
 
-来源于 VitePress 自带的 Vue 组件，默认类型为 tip
 
 ```md
 ### Title1 <Badge type="info" text="default" />
