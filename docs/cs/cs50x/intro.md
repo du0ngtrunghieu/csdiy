@@ -32,9 +32,9 @@
 
 ## 一些有用的链接
 
-- [我自己关于作业的解答](https://github.com/mancuoj/CS50x) 仅供参考捏
-- [课程链接](https://cs50.harvard.edu/x) CS50 和 CS50x 的区别大概就是一个面向校内学生，一个面向大众
-- [Discord](https://discord.com/invite/cs50) 挺活跃的，可以在里面问问题
+- [我自己关于作业的解答](https://github.com/mancuoj/CS50x) 仅供参考！
+- [课程链接](https://cs50.harvard.edu/x)
+- [Discord](https://discord.com/invite/cs50) 挺活跃的，可以去提问
 - [记分册](https://cs50.me/cs50x) 可以看到你的完成进度
-- [文档](https://cs50.readthedocs.io/) 所有的文档都在这里了捏
+- [文档](https://cs50.readthedocs.io/) 一些关于本课程的文档
 - 还有些别的都在课程主页里面，自己去寻找宝藏吧 😆
