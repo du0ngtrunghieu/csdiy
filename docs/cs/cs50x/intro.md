@@ -32,8 +32,8 @@
 
 ## 一些有用的链接
 
-- [我自己关于作业的解答](https://github.com/mancuoj/CS50x) 仅供参考！
 - [课程链接](https://cs50.harvard.edu/x)
+- [课后习题答案](https://github.com/mancuoj/CS50x) 我自己写的，仅供参考！
 - [Discord](https://discord.com/invite/cs50) 挺活跃的，可以去提问
 - [记分册](https://cs50.me/cs50x) 可以看到你的完成进度
 - [文档](https://cs50.readthedocs.io/) 一些关于本课程的文档
